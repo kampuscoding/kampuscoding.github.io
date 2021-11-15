@@ -1,594 +1,683 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- FAVICON -->
-        <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
-        <link rel="manifest" href="https://www.codepolitan.com/manifest.json">
-        <meta name="msapplication-TileColor" content="#6dc7c5">
-        <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
-        <meta name="theme-color" content="#6dc7c5">
+<head>
+  <meta charset="utf-8">
+  <title>Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- META -->
-        <link rel="canonical" href="https://kampuscoding.id/">
-        <meta property="og:locale" content="id_ID">
-        <meta property="og:type" content="article">
-        <meta property="og:title" content="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0">
-        <meta property="og:description" content="Kampus Coding merupakan program belajar coding online yang diselenggarakan oleh CODEPOLITAN untuk membantu perguruan tinggi dalam mempersiapkan lulusannya khususnya dalam jurusan IT agar siap terjun dan bersaing di dunia kerja dalam industri 4.0.">
-        <meta property="og:url" content="https://kampuscoding.id/">
-        <meta property="og:site_name" content="kampuscoding.id">
-        <meta property="article:publisher" content="https://www.facebook.com/codepolitan">
-        <meta property="og:image" content="assets/img/default.jpg">
-        <meta property="og:image:width" content="700">
-        <meta property="og:image:height" content="350">
-        <link rel="alternate" type="application/rss+xml" title="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" href="https://kampuscoding.id/feed/">
-        <meta name="description" content="Kampus Coding merupakan program belajar coding online yang diselenggarakan oleh CODEPOLITAN untuk membantu perguruan tinggi dalam mempersiapkan lulusannya khususnya dalam jurusan IT agar siap terjun dan bersaing di dunia kerja dalam industri 4.0.">
-        <meta property="description" content="Kampus Coding merupakan program belajar coding online yang diselenggarakan oleh CODEPOLITAN untuk membantu perguruan tinggi dalam mempersiapkan lulusannya khususnya dalam jurusan IT agar siap terjun dan bersaing di dunia kerja dalam industri 4.0.">
-        <meta property="language" content="Indonesia">
-        <meta property="revisit-after" content="7">
-        <meta property="rating" content="general">
-        <meta name="google-site-verification" content="ErdTzB1AquCqq7TiWcxi1FiXIdYxCOd-wkx66iJQ72c" />
-        <meta property="webcrawlers" content="all">
-        <meta property="spiders" content="all">
-        <meta property="robots" content="all">
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="https://www.codepolitan.com/manifest.json">
+  <meta name="msapplication-TileColor" content="#6dc7c5">
+  <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#6dc7c5">
 
-        <link href="assets/css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="assets/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="assets/css/theme-serpent.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet" type="text/css">
-        <link href="assets/css/font-roboto.css" rel="stylesheet" type="text/css">
+  <!-- META -->
+  <link rel="canonical" href="https://kampuscoding.id/">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0">
+  <meta property="og:description"
+    content="Kampus Coding merupakan program belajar coding online yang diselenggarakan oleh CODEPOLITAN untuk membantu perguruan tinggi dalam mempersiapkan lulusannya khususnya dalam jurusan IT agar siap terjun dan bersaing di dunia kerja dalam industri 4.0.">
+  <meta property="og:url" content="https://kampuscoding.id/">
+  <meta property="og:site_name" content="kampuscoding.id">
+  <meta property="article:publisher" content="https://www.facebook.com/codepolitan">
+  <meta property="og:image" content="assets/img/default.jpg">
+  <meta property="og:image:width" content="700">
+  <meta property="og:image:height" content="350">
+  <link rel="alternate" type="application/rss+xml"
+    title="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" href="https://kampuscoding.id/feed/">
+  <meta name="description"
+    content="Kampus Coding merupakan program belajar coding online yang diselenggarakan oleh CODEPOLITAN untuk membantu perguruan tinggi dalam mempersiapkan lulusannya khususnya dalam jurusan IT agar siap terjun dan bersaing di dunia kerja dalam industri 4.0.">
+  <meta property="description"
+    content="Kampus Coding merupakan program belajar coding online yang diselenggarakan oleh CODEPOLITAN untuk membantu perguruan tinggi dalam mempersiapkan lulusannya khususnya dalam jurusan IT agar siap terjun dan bersaing di dunia kerja dalam industri 4.0.">
+  <meta property="language" content="Indonesia">
+  <meta property="revisit-after" content="7">
+  <meta property="rating" content="general">
+  <meta name="google-site-verification" content="ErdTzB1AquCqq7TiWcxi1FiXIdYxCOd-wkx66iJQ72c" />
+  <meta property="webcrawlers" content="all">
+  <meta property="spiders" content="all">
+  <meta property="robots" content="all">
 
-
-        <!-- Facebook Pixel Code -->
-        <script>
-          !function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '496143660723921');
-          fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-          src="https://www.facebook.com/tr?id=496143660723921&ev=PageView&noscript=1"
-        /></noscript>
-        <!-- End Facebook Pixel Code -->
-
-        <!-- Facebook Pixel Code -->
-        <script>
-          !function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '347646795880654');
-          fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-          src="https://www.facebook.com/tr?id=347646795880654&ev=PageView&noscript=1"
-        /></noscript>
-        <!-- End Facebook Pixel Code -->
+  <link href="assets/css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="assets/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="assets/css/theme-serpent.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet" type="text/css">
+  <link href="assets/css/font-roboto.css" rel="stylesheet" type="text/css">
 
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51093490-10"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '496143660723921');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=496143660723921&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
 
-          gtag('config', 'UA-51093490-10');
-        </script>
-
-
-    </head>
-    <body data-smooth-scroll-offset="77">
-        <div class="nav-container"> </div>
-        <div class="main-container">
-            <section class="cover height-70 imagebg text-center" data-overlay="4">
-                <div class="background-image-holder"> <img alt="background" src="assets/img/bg-header.jpg"> </div>
-                <div class="container pos-vertical-center">
-                    <div class="row">
-                        <div class="col-md-8 col-lg-7">
-                            <h1 class="type--bold"> KAMPUS CODING</h1>
-                            <p class="lead">Menyiapkan Lulusan IT Indonesia Siap Kerja di Industri 4.0</p>
-                            <a class="btn btn--primary type--uppercase btn-scroll-to" href="#investasi"> <span class="btn__text">
-						Gabung Program
-					</span> </a>
-                    </span> </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="space--xxs text-center">
-                <div class="container">
-                    <span class="lead">Presented by</span> <a href="https://www.codepolitan.com/"><img src="assets/img/codepolitan_logo.png" class="d-inline ml-3" alt="CODEPOLITAN"></a>
-                </div>
-            </section>
-            <section class="switchable feature-large bg--secondary switchable--switch space--sm">
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-md-6 col-lg-5">
-                            <div class="switchable__text">
-                                <h2>Apa itu Kampus Coding?</h2>
-                                <p class="lead"> Kampus Coding merupakan program belajar coding online yang diselenggarakan oleh CODEPOLITAN untuk membantu perguruan tinggi dalam mempersiapkan lulusannya khususnya dalam jurusan IT agar siap terjun dan bersaing di dunia kerja dalam industri 4.0. </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="boxed boxed--lg boxed--border">
-                                <div class="feature feature-2"> <i class="icon icon-Clock-Back color--primary"></i>
-                                    <div class="feature__body">
-                                        <h5>Belajar Online 2 Semester</h5>
-                                        <p> Belajar online selama 2 semester (1 tahun) dengan waktu belajar fleksibel. </p>
-                                    </div>
-                                </div>
-                                <div class="feature feature-2"> <i class="icon color--primary icon-Video"></i>
-                                    <div class="feature__body">
-                                        <h5>Video Tutorial Step by Step</h5>
-                                        <p> Materi belajar menggunakan format video yang disusun langkah demi langkah agar mudah dipelajari. </p>
-                                    </div>
-                                </div>
-                                <div class="feature feature-2"> <i class="icon color--primary icon-Diploma-2"></i>
-                                    <div class="feature__body">
-                                        <h5>Evaluasi & Sertifikat Digital</h5>
-                                        <p> Siswa akan mendapatkan sertifikat digital setelah menyelesaikan program.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="switchable feature-large space--sm">
-                <div class="container">
-                    <div class="row justify-content-around">
-                        <div class="col-md-6"> <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class="" src="assets/img/img-cepat.png"> </div>
-                        <div class="col-md-6 col-lg-5">
-                            <div class="switchable__text">
-                                <h2 class="mt-sm-5 pt-sm-5 type--bold">Kurikulum Standard Kompetensi Kerja Nasional</h2>
-                                <p class="lead"> Siswa akan belajar secara online dengan Kurikulum yang mengacu pada Standard Kompetensi Kerja Nasional Indonesia (SKKNI) berdasarkan jalur profesi Junior Web Developer</p>
-                                <a class="btn type--uppercase btn-scroll-to" href="#silabus"><span class="btn__text">Lihat Silabus</span></a> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="switchable feature-large switchable--switch space--sm">
-                <div class="container">
-                    <div class="row justify-content-around">
-                        <div class="col-md-6"> <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class="" src="assets/img/img-magang.png"> </div>
-                        <div class="col-md-6 col-lg-5">
-                            <div class="switchable__text">
-                                <h2 class="mt-sm-5 pt-sm-5 type--bold">Program Magang dan Bimbingan Karir</h2>
-                                <p class="lead"> Bagi siswa yang mampu menyelesaikan program dengan baik dan berhasil lulus seleksi akan berkesempatan mengikuti program magang Super Bootcamp dan bimbingan karir di CODEPOLITAN selama 2 bulan. GRATIS!</p> 
-                                <a class="btn type--uppercase" href="https://kampuscoding.id/magang/"><span class="btn__text">Lihat Detail</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="switchable feature-large space--sm">
-                <div class="container">
-                    <div class="row justify-content-around">
-                        <div class="col-md-6"> <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class="" src="assets/img/img-mentoring.png"> </div>
-                        <div class="col-md-6 col-lg-5">
-                            <div class="switchable__text">
-                                <h2 class="mt-sm-5 pt-sm-5 type--bold">Webinar Live</h2>
-                                <p class="lead">Siswa bisa mengikuti program webinar yang diselenggarakan setiap bulan untuk mengdapatkan informasi terkait dunia teknologi dan industri dalam bidang pemrograman dan teknologi.</p>  
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="switchable feature-large switchable--switch space--sm">
-                <div class="container">
-                    <div class="row justify-content-around">
-                        <div class="col-md-6"> <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class="" src="assets/img/img-project.png"> </div>
-                        <div class="col-md-6 col-lg-5">
-                            <div class="switchable__text">
-                                <h2 class="mt-sm-5 pt-sm-5 type--bold">Belajar Langsung dari Project Studi Kasus</h2>
-                                <p class="lead"> Tidak hanya membahas teori, kamu juga akan belajar cara menggunakan teknologi yang sedang kamu pelajari dalam sebuah project nyata.</p> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="switchable feature-large space--sm bg--secondary">
-                <div class="container">
-                  <div class="row justify-content-center">
-                    <div class="col-md-10">
-                      <div class="switchable__text">
-                        <p class="h4 text-center type--bold">Mengapa Bergabung dengan Kampus Coding?</p>
-                        <div class="row justify-content-center pt-5">
-                          <div class="col-md-2 col-4">
-                            <div class="text-block text-center mb-5"> <i class="icon color--dark icon-A-Z"></i>
-                              <h4>Alur Belajar Terarah</h4>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-4">
-                            <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Yes"></i>
-                              <h4>Waktu Belajar Fleksibel</h4>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-4">
-                            <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Check"></i>
-                              <h4>Progress Belajar Terukur</h4>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-4">
-                            <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Management"></i>
-                              <h4>Kurikulum Standar Industri</h4>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-4">
-                            <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Play-Music"></i>
-                              <h4>Video Tutorial</h4>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-4">
-                            <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Diploma-2"></i>
-                              <h4>Sertifikat Online</h4>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-4">
-                            <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Speach-BubbleComic2"></i>
-                              <h4>Forum Diskusi Tanya Jawab</h4>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-4">
-                            <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Chemical-3"></i>
-                              <h4>Metode Best Practice</h4>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-4">
-                            <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Laptop-Phone"></i>
-                              <h4>Contoh Project</h4>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-4">
-                            <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Coding"></i>
-                              <h4>Source Code Program</h4>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-4">
-                            <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Microphone-4"></i>
-                              <h4>Webinar Live</h4>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-4">
-                            <div class="text-block text-center mb-5"> <i class="icon color--dark icon-User"></i>
-                              <h4>Program Magang</h4>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </section>
-
-            <section class="space--sm" id="silabus">
-                <div class="container">
-                    <h3 class="h2 text-center type--bold">Materi Belajar Kampus Coding</h3>
-                    <p class="lead text-center mb-5 pb-3">Berikut ini materi belajar yang akan dipelajari dalam program Kampus Coding:</p>
-
-                    <div class="row justify-content-center">
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/HTML_dan_CSS_Dasar2.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">HTML dan CSS Dasar</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Belajar_JavaScript_Dasar2.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Belajar JavaScript Dasar</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Belajar_Pemrograman_PHP2.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Belajar Pemrograman PHP</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Penggunaan_Database_MySQL_pada_Pemrograman_PHP2.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Penggunaan Database MySQL pada Pemrograman PHP</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Menggunakan_Bootstrap_Framework2.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Menggunakan Bootstrap Framework</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Membuat_Landing_Page_Website_dengan_Bootstrap_45.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Membuat Landing Page Website dengan Bootstrap 4</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Belajar_JQuery_Dasar2.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Belajar JQuery Dasar</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Konsep_Dasar_Pemrograman_Berorientasi_Objek_di_PHP.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Konsep Dasar Pemrograman Berorientasi Objek di PHP</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Menguasai_Framework_CodeIgniter2.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Menguasai Framework CodeIgniter</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Membangun_Website_Toko_Online_Berbasis_CodeIgniter2.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Membangun Website Toko Online Berbasis CodeIgniter</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Dasar-dasar_Framework_Laravel_62.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Dasar-dasar Framework Laravel</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Membuat_Sistem_Informasi_Perpustakaan_Menggunakan_Laravel_62.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Membuat Sistem Informasi Perpustakaan Menggunakan Laravel</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="space--sm">
-                <div class="container">
-                    <h3 class="h2 text-center type--bold">Bonus Materi</h3>
-                    <p class="lead text-center mb-5 pb-3">Selain materi utama, siswa juga akan mendapatkan materi pengayaan sebagai berikut:</p>
-
-                    <div class="row justify-content-center">
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Mengenal_Pemrograman_Komputer2.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Mengenal Pemrograman Komputer</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Algoritma_dan_Pemrograman_Dasar2.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Algoritma dan Pemrograman Dasar</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Belajar_GIT_untuk_Pemula2.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Belajar GIT untuk Pemula</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Membangun_RESTful_API_Dengan_Laravel_62.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Membangun RESTful API dengan Laravel 6</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Membuat_Toko_Online_dengan_Laravel_LiveWire_dan_Payment_Gateway3.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Membuat Toko Online dengan Laravel LiveWire dan Payment Gateway</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <div class="course-item mb-5">
-                                <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Belajar_Cepat_Vuejs1.jpg" class="rounded img-fluid mb-3">
-                                <div><span class="type--bold">Belajar Cepat Vue.js</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="space--sm bg--secondary">
-                <div class="container">
-                    <h3 class="h2 text-center type--bold">Program Kerja Sama</h3>
-                    <p class="lead text-center mb-5 pb-5">Materi belajar Kampus Coding telah digunakan dalam program kerja sama<br />dengan beberapa pihak, salah satunya sebagai berikut:</p>
-
-                    <div class="row justify-content-around">
-                        <div class="col-md-6"> <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class="border--round box-shadow-wide" src="assets/img/intala.jpg"> </div>
-                        <div class="col-md-6 col-lg-5">
-                            <div class="switchable__text">
-                                <img src="assets/img/logo_kemnaker.png" class="mb-5 mt-5">
-                                <h4 class="type--bold">Program Pelatihan Menjadi Junior Web Developer Bersama Direktorat Bina INTALA KEMNAKER</h4>
-                                <p class="lead"> Program pelatihan Menjadi Junior Web Developer SKKNI diselenggarakan bersama Direktorat Bina INTALA dari Kementerian Ketenagakerjaan Republik Indonesia (KEMNAKER).</p> 
-                                <a class="btn type--uppercase" href="https://photos.app.goo.gl/bYxAgTFXasuyVkcV6" target="_blank"><span class="btn__text">Lihat Dokumentasi Program</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="space--sm text-center">
-                <div class="container">
-                    <h3 class="h2 type--bold">Campus Partners</h3>
-                    <p class="lead mb-5 pb-3">Kami telah bekerjasama dengan berbagai perguruan tinggi yang tersebar di seluruh Indonesia</p>
-
-                    <div class="kampus-wrapper text-center">
-                        <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class="logo-kampus d-inline-block mx-4 mb-4" src="assets/img/logo-urindo.png">
-                        <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class="logo-kampus d-inline-block mx-4 mb-4" src="assets/img/logo-uii.png">
-                        <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class="logo-kampus d-inline-block mx-4 mb-4" src="assets/img/logo-ustj.png">
-                        <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class="logo-kampus d-inline-block mx-4 mb-4" src="assets/img/Logo-UPI.png">
-                        <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class="logo-kampus d-inline-block mx-4 mb-4" src="assets/img/logo-amik-bumi-nusantara.png">
-                    </div>
-
-                    <a class="btn type--uppercase mt-5" href="https://forms.gle/JX4E6tx9WeUXaWnz8" target="_blank"><span class="btn__text">Gabung Sebagai Kampus Mitra</span></a>
-                </div>
-            </section>
-
-            <section class="text-center bg--secondary space--sm" id="investasi">
-                <div class="container">
-                    <h3 class="h2 type--bold">Gabung Program</h3>
-                    <p class="lead mb-5 pb-3">Kamu bisa bergabung melalui paket belajar sesuai dengan yang kamu butuhkan.</p>
-
-                    <div class="row justify-content-center">
-                        <div class="col-md-5">
-                            <div class="pricing pricing-1 boxed boxed--border boxed--lg">
-                                <h4>Program Ngebut</h4> <span class="h1"><span class="pricing__dollar">Rp</span><strong>350.000</strong></span>
-                                <p> Akses semua materi dan fasilitas belajar selama<br /> 1 semester (6 bulan)</p>
-                                <a class="btn btn--primary-1" href="https://apps.codepolitan.com/user/login?callback=payment/cart/add/kampus-coding-junior-web-ngebut"> <span class="btn__text">
-                            GABUNG PROGRAM NGEBUT
-                        </span> </a>
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="pricing pricing-1 boxed boxed--border boxed--lg boxed--emphasis">
-                                <h4>Program Reguler</h4> <span class="h1"><span class="pricing__dollar">Rp</span><strong>475.000</strong></span>
-                                <p> Akses semua materi dan fasilitas belajar selama<br /> 2 semester (1 tahun)</p> <span class="label">Recommended</span>
-                                <a class="btn btn--primary" href="https://apps.codepolitan.com/user/login?callback=payment/cart/add/kampus-coding-junior-web-reguler"> <span class="btn__text">
-                            GABUNG PROGRAM REGULER
-                        </span> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '347646795880654');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=347646795880654&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
 
 
-            <section class="switchable space--sm">
-              <div class="container">
-                <div class="row justify-content-center">
-                  <div class="col-md-10">
-                    <h2 class="text-center">Pertanyaan Umum</h2>
-                    <p class="lead mb-5 text-center">Berikut ini pertanyaan umum yang sering ditanyakan kepada kami, mungkin salah satunya adalah pertanyaan yang ingin kamu tanyakan.</p>
-                    <ul class="accordion accordion-2 accordion--oneopen">
-                      <li>
-                        <div class="accordion__title"> <span class="h5">Apa itu Kampus Coding?</span> </div>
-                        <div class="accordion__content">
-                          <p class="lead"> Kampus Coding merupakan program belajar coding online yang diselenggarakan oleh CODEPOLITAN untuk membantu perguruan tinggi dalam mempersiapkan lulusannya khususnya dalam jurusan IT agar siap terjun dan bersaing di dunia kerja dalam industri 4.0. </p>
-                        </div>
-                      </li>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51093490-10"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-                      <li>
-                        <div class="accordion__title"> <span class="h5">Untuk siapa program Kampus Coding?</span> </div>
-                        <div class="accordion__content">
-                          <p class="lead"> Pelajar dan Mahasiswa yang ingin membangun keahlian dalam bidang web programming untuk mempersiapkan diri menghadapi dunia kerja di industri 4.0</p>
-                        </div>
-                      </li>
+    gtag('config', 'UA-51093490-10');
+  </script>
 
-                      <li>
-                        <div class="accordion__title"> <span class="h5">Bagaimana metode belajar di Kampus Coding?</span> </div>
-                        <div class="accordion__content">
-                          <p class="lead"> Siswa Kampus Coding akan belajar secara online berdasarkan alur belajar yang telah disediakan. Materi belajar berbentuk video tutorial yang dikemas langkah demi langkah agar mudah dipelajari. Siswa bisa belajar secara fleksibel kapan saja dan di mana saja sesuai. Siswa bisa bertanya melalui forum yang telah disediakan jika mengalami kesulitan selama belajar.</p>
-                        </div>
-                      </li>
 
-                      <li>
-                        <div class="accordion__title"> <span class="h5">Apakah siswa akan mendapatkan sertifikat setelah menyelesaikan materi belajar?</span> </div>
-                        <div class="accordion__content">
-                          <p class="lead"> Ya, sertifikat digital.</p>
-                        </div>
-                      </li>
+</head>
 
-                      <li>
-                        <div class="accordion__title"> <span class="h5">Bagaimana jika saya mengalami kesulitan selama belajar?</span> </div>
-                        <div class="accordion__content">
-                          <p class="lead"> Siswa bisa mengulang materi untuk memperdalam pemahaman. Jika masih mengalami kesulitan, siswa bisa bertanya di forum yang telah disediakan</p>
-                        </div>
-                      </li>
-
-                      <li>
-                        <div class="accordion__title"> <span class="h5">Berapa lama waktu yang diperlukan untuk menyelesaikan semua materi dalam program Kampus Coding?</span> </div>
-                        <div class="accordion__content">
-                          <p class="lead"> Idealnya 1 tahun waktu yang cukup untuk menguasai semua materi belajar dengan baik. Namun jika kamu memiliki fokus yang tinggi dan terbiasa belajar cepat, kamu bisa menyelesaikan semua materi dan meguasainya dalam waktu 6 bulan (1 semester).</p>
-                        </div>
-                      </li>
-
-                      <li>
-                        <div class="accordion__title"> <span class="h5">Apakah program ini gratis?</span> </div>
-                        <div class="accordion__content">
-                          <p class="lead"> Tidak, program ini berbayar.</p>
-                        </div>
-                      </li>
-
-                      <li>
-                        <div class="accordion__title"> <span class="h5">Apakah program ini terbuka untuk umum?</span> </div>
-                        <div class="accordion__content">
-                          <p class="lead"> Ya, namun dikhususkan untuk pelajar dan mahasiswa.</p>
-                        </div>
-                      </li>
-
-                      <li>
-                        <div class="accordion__title"> <span class="h5">Apakah siswa bisa mendaftar secara mandiri atau melalui kampus?</span> </div>
-                        <div class="accordion__content">
-                          <p class="lead"> Siswa bisa belajar mandiri.</p>
-                        </div>
-                      </li>
-
-                      <li>
-                        <div class="accordion__title"> <span class="h5">Apakah Kampus Coding bisa bermitra dengan kampus dalam penyelenggaraan materi belajar?</span> </div>
-                        <div class="accordion__content">
-                          <p class="lead"> Bisa, kami sudah memiliki beberapa partner terkait hal tersebut.</p>
-                        </div>
-                      </li>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="text-center space--sm">
-              <div class="container">
-                  <h3>Apakah kamu masih punya pertanyaan lain?</h3>
-                  <a href="https://api.whatsapp.com/send?phone=6281223459994&text=Hallo%20CODEPOLITAN%2C%20saya%20ingin%20bertanya%20seputar%20program%20Kampus%20Coding" target="_blank"><img alt="Tombol WhatsApp" src="assets/img/button-wa.png"></a>
-                  <div class="mt-2">Bisa dihubungi pada jam kerja</div>
-              </div>
-            </section>
-
+<body data-smooth-scroll-offset="77">
+  <div class="nav-container"> </div>
+  <div class="main-container">
+    <section class="cover height-70 imagebg text-center" data-overlay="4">
+      <div class="background-image-holder"> <img alt="background" src="assets/img/bg-header.jpg"> </div>
+      <div class="container pos-vertical-center">
+        <div class="row">
+          <div class="col-md-8 col-lg-7">
+            <h1 class="type--bold"> KAMPUS CODING</h1>
+            <p class="lead">Menyiapkan Lulusan IT Indonesia Siap Kerja di Industri 4.0</p>
+            <a class="btn btn--primary type--uppercase btn-scroll-to" href="#investasi"> <span class="btn__text">
+                Gabung Program
+              </span> </a>
+            </span> </a>
+          </div>
         </div>
-        <script src="assets/js/jquery-3.1.1.min.js"></script>
-        <script src="assets/js/parallax.js"></script>
-        <script src="assets/js/smooth-scroll.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
+      </div>
+    </section>
+    <section class="space--xxs text-center">
+      <div class="container">
+        <span class="lead">Presented by</span> <a href="https://www.codepolitan.com/"><img
+            src="assets/img/codepolitan_logo.png" class="d-inline ml-3" alt="CODEPOLITAN"></a>
+      </div>
+    </section>
+    <section class="switchable feature-large bg--secondary switchable--switch space--sm">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-6 col-lg-5">
+            <div class="switchable__text">
+              <h2>Apa itu Kampus Coding?</h2>
+              <p class="lead"> Kampus Coding merupakan program belajar coding online yang diselenggarakan oleh
+                CODEPOLITAN untuk membantu perguruan tinggi dalam mempersiapkan lulusannya khususnya dalam jurusan IT
+                agar siap terjun dan bersaing di dunia kerja dalam industri 4.0. </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="boxed boxed--lg boxed--border">
+              <div class="feature feature-2"> <i class="icon icon-Clock-Back color--primary"></i>
+                <div class="feature__body">
+                  <h5>Belajar Online 2 Semester</h5>
+                  <p> Belajar online selama 2 semester (1 tahun) dengan waktu belajar fleksibel. </p>
+                </div>
+              </div>
+              <div class="feature feature-2"> <i class="icon color--primary icon-Video"></i>
+                <div class="feature__body">
+                  <h5>Video Tutorial Step by Step</h5>
+                  <p> Materi belajar menggunakan format video yang disusun langkah demi langkah agar mudah dipelajari.
+                  </p>
+                </div>
+              </div>
+              <div class="feature feature-2"> <i class="icon color--primary icon-Diploma-2"></i>
+                <div class="feature__body">
+                  <h5>Evaluasi & Sertifikat Digital</h5>
+                  <p> Siswa akan mendapatkan sertifikat digital setelah menyelesaikan program.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="switchable feature-large space--sm">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-md-6"> <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class=""
+              src="assets/img/img-cepat.png"> </div>
+          <div class="col-md-6 col-lg-5">
+            <div class="switchable__text">
+              <h2 class="mt-sm-5 pt-sm-5 type--bold">Kurikulum Standard Kompetensi Kerja Nasional</h2>
+              <p class="lead"> Siswa akan belajar secara online dengan Kurikulum yang mengacu pada Standard Kompetensi
+                Kerja Nasional Indonesia (SKKNI) berdasarkan jalur profesi Junior Web Developer</p>
+              <a class="btn type--uppercase btn-scroll-to" href="#silabus"><span class="btn__text">Lihat
+                  Silabus</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="switchable feature-large switchable--switch space--sm">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-md-6"> <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class=""
+              src="assets/img/img-magang.png"> </div>
+          <div class="col-md-6 col-lg-5">
+            <div class="switchable__text">
+              <h2 class="mt-sm-5 pt-sm-5 type--bold">Program Magang dan Bimbingan Karir</h2>
+              <p class="lead"> Bagi siswa yang mampu menyelesaikan program dengan baik dan berhasil lulus seleksi akan
+                berkesempatan mengikuti program magang Super Bootcamp dan bimbingan karir di CODEPOLITAN selama 2 bulan.
+                GRATIS!</p>
+              <a class="btn type--uppercase" href="https://kampuscoding.id/magang/"><span class="btn__text">Lihat
+                  Detail</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="switchable feature-large space--sm">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-md-6"> <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class=""
+              src="assets/img/img-mentoring.png"> </div>
+          <div class="col-md-6 col-lg-5">
+            <div class="switchable__text">
+              <h2 class="mt-sm-5 pt-sm-5 type--bold">Webinar Live</h2>
+              <p class="lead">Siswa bisa mengikuti program webinar yang diselenggarakan setiap bulan untuk mengdapatkan
+                informasi terkait dunia teknologi dan industri dalam bidang pemrograman dan teknologi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="switchable feature-large switchable--switch space--sm">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-md-6"> <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0" class=""
+              src="assets/img/img-project.png"> </div>
+          <div class="col-md-6 col-lg-5">
+            <div class="switchable__text">
+              <h2 class="mt-sm-5 pt-sm-5 type--bold">Belajar Langsung dari Project Studi Kasus</h2>
+              <p class="lead"> Tidak hanya membahas teori, kamu juga akan belajar cara menggunakan teknologi yang sedang
+                kamu pelajari dalam sebuah project nyata.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="switchable feature-large space--sm bg--secondary">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="switchable__text">
+              <p class="h4 text-center type--bold">Mengapa Bergabung dengan Kampus Coding?</p>
+              <div class="row justify-content-center pt-5">
+                <div class="col-md-2 col-4">
+                  <div class="text-block text-center mb-5"> <i class="icon color--dark icon-A-Z"></i>
+                    <h4>Alur Belajar Terarah</h4>
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Yes"></i>
+                    <h4>Waktu Belajar Fleksibel</h4>
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Check"></i>
+                    <h4>Progress Belajar Terukur</h4>
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Management"></i>
+                    <h4>Kurikulum Standar Industri</h4>
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Play-Music"></i>
+                    <h4>Video Tutorial</h4>
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Diploma-2"></i>
+                    <h4>Sertifikat Online</h4>
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Speach-BubbleComic2"></i>
+                    <h4>Forum Diskusi Tanya Jawab</h4>
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Chemical-3"></i>
+                    <h4>Metode Best Practice</h4>
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Laptop-Phone"></i>
+                    <h4>Contoh Project</h4>
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Coding"></i>
+                    <h4>Source Code Program</h4>
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="text-block text-center mb-5"> <i class="icon color--dark icon-Microphone-4"></i>
+                    <h4>Webinar Live</h4>
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="text-block text-center mb-5"> <i class="icon color--dark icon-User"></i>
+                    <h4>Program Magang</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <script>
-        $( ".btn-scroll-to" ).click(function() {
-            var target = $(this).attr("href");
-            
-            $('html, body').animate({
-                scrollTop: ($(target).first().offset().top)
-            },500);
-        });
-        </script>
+    <section class="space--sm" id="silabus">
+      <div class="container">
+        <h3 class="h2 text-center type--bold">Materi Belajar Kampus Coding</h3>
+        <p class="lead text-center mb-5 pb-3">Berikut ini materi belajar yang akan dipelajari dalam program Kampus
+          Coding:</p>
 
-    </body>
+        <div class="row justify-content-center">
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/HTML_dan_CSS_Dasar2.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">HTML dan CSS Dasar</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Belajar_JavaScript_Dasar2.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Belajar JavaScript Dasar</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Belajar_Pemrograman_PHP2.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Belajar Pemrograman PHP</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img
+                src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Penggunaan_Database_MySQL_pada_Pemrograman_PHP2.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Penggunaan Database MySQL pada Pemrograman PHP</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Menggunakan_Bootstrap_Framework2.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Menggunakan Bootstrap Framework</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img
+                src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Membuat_Landing_Page_Website_dengan_Bootstrap_45.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Membuat Landing Page Website dengan Bootstrap 4</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Belajar_JQuery_Dasar2.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Belajar JQuery Dasar</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img
+                src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Konsep_Dasar_Pemrograman_Berorientasi_Objek_di_PHP.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Konsep Dasar Pemrograman Berorientasi Objek di PHP</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Menguasai_Framework_CodeIgniter2.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Menguasai Framework CodeIgniter</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img
+                src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Membangun_Website_Toko_Online_Berbasis_CodeIgniter2.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Membangun Website Toko Online Berbasis CodeIgniter</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Dasar-dasar_Framework_Laravel_62.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Dasar-dasar Framework Laravel</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img
+                src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Membuat_Sistem_Informasi_Perpustakaan_Menggunakan_Laravel_62.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Membuat Sistem Informasi Perpustakaan Menggunakan Laravel</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="space--sm">
+      <div class="container">
+        <h3 class="h2 text-center type--bold">Bonus Materi</h3>
+        <p class="lead text-center mb-5 pb-3">Selain materi utama, siswa juga akan mendapatkan materi pengayaan sebagai
+          berikut:</p>
+
+        <div class="row justify-content-center">
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Mengenal_Pemrograman_Komputer2.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Mengenal Pemrograman Komputer</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Algoritma_dan_Pemrograman_Dasar2.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Algoritma dan Pemrograman Dasar</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Belajar_GIT_untuk_Pemula2.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Belajar GIT untuk Pemula</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img
+                src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Membangun_RESTful_API_Dengan_Laravel_62.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Membangun RESTful API dengan Laravel 6</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img
+                src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Membuat_Toko_Online_dengan_Laravel_LiveWire_dan_Payment_Gateway3.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Membuat Toko Online dengan Laravel LiveWire dan Payment Gateway</span></div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="course-item mb-5">
+              <img src="https://cdn-cdpl.sgp1.digitaloceanspaces.com/original/10/Belajar_Cepat_Vuejs1.jpg"
+                class="rounded img-fluid mb-3">
+              <div><span class="type--bold">Belajar Cepat Vue.js</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="space--sm bg--secondary">
+      <div class="container">
+        <h3 class="h2 text-center type--bold">Program Kerja Sama</h3>
+        <p class="lead text-center mb-5 pb-5">Materi belajar Kampus Coding telah digunakan dalam program kerja
+          sama<br />dengan beberapa pihak, salah satunya sebagai berikut:</p>
+
+        <div class="row justify-content-around">
+          <div class="col-md-6"> <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0"
+              class="border--round box-shadow-wide" src="assets/img/intala.jpg"> </div>
+          <div class="col-md-6 col-lg-5">
+            <div class="switchable__text">
+              <img src="assets/img/logo_kemnaker.png" class="mb-5 mt-5">
+              <h4 class="type--bold">Program Pelatihan Menjadi Junior Web Developer Bersama Direktorat Bina INTALA
+                KEMNAKER</h4>
+              <p class="lead"> Program pelatihan Menjadi Junior Web Developer SKKNI diselenggarakan bersama Direktorat
+                Bina INTALA dari Kementerian Ketenagakerjaan Republik Indonesia (KEMNAKER).</p>
+              <a class="btn type--uppercase" href="https://photos.app.goo.gl/bYxAgTFXasuyVkcV6" target="_blank"><span
+                  class="btn__text">Lihat Dokumentasi Program</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="space--sm text-center">
+      <div class="container">
+        <h3 class="h2 type--bold">Campus Partners</h3>
+        <p class="lead mb-5 pb-3">Kami telah bekerjasama dengan berbagai perguruan tinggi yang tersebar di seluruh
+          Indonesia</p>
+
+        <div class="kampus-wrapper text-center">
+          <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0"
+            class="logo-kampus d-inline-block mx-4 mb-4" src="assets/img/logo-urindo.png">
+          <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0"
+            class="logo-kampus d-inline-block mx-4 mb-4" src="assets/img/logo-uii.png">
+          <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0"
+            class="logo-kampus d-inline-block mx-4 mb-4" src="assets/img/logo-ustj.png">
+          <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0"
+            class="logo-kampus d-inline-block mx-4 mb-4" src="assets/img/Logo-UPI.png">
+          <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0"
+            class="logo-kampus d-inline-block mx-4 mb-4" src="assets/img/logo-amik-bumi-nusantara.png">
+          <img alt="Kampus Coding - Menyiapkan Lulusan IT Siap Kerja di Industri 4.0"
+            class="logo-kampus d-inline-block mx-4 mb-4" src="assets/img/logo-smkn-4-kendal.png">
+        </div>
+
+        <a class="btn type--uppercase mt-5" href="https://forms.gle/JX4E6tx9WeUXaWnz8" target="_blank"><span
+            class="btn__text">Gabung Sebagai Kampus Mitra</span></a>
+      </div>
+    </section>
+
+    <section class="text-center bg--secondary space--sm" id="investasi">
+      <div class="container">
+        <h3 class="h2 type--bold">Gabung Program</h3>
+        <p class="lead mb-5 pb-3">Kamu bisa bergabung melalui paket belajar sesuai dengan yang kamu butuhkan.</p>
+
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <div class="pricing pricing-1 boxed boxed--border boxed--lg">
+              <h4>Program Ngebut</h4> <span class="h1"><span
+                  class="pricing__dollar">Rp</span><strong>350.000</strong></span>
+              <p> Akses semua materi dan fasilitas belajar selama<br /> 1 semester (6 bulan)</p>
+              <a class="btn btn--primary-1"
+                href="https://apps.codepolitan.com/user/login?callback=payment/cart/add/kampus-coding-junior-web-ngebut">
+                <span class="btn__text">
+                  GABUNG PROGRAM NGEBUT
+                </span> </a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="pricing pricing-1 boxed boxed--border boxed--lg boxed--emphasis">
+              <h4>Program Reguler</h4> <span class="h1"><span
+                  class="pricing__dollar">Rp</span><strong>475.000</strong></span>
+              <p> Akses semua materi dan fasilitas belajar selama<br /> 2 semester (1 tahun)</p> <span
+                class="label">Recommended</span>
+              <a class="btn btn--primary"
+                href="https://apps.codepolitan.com/user/login?callback=payment/cart/add/kampus-coding-junior-web-reguler">
+                <span class="btn__text">
+                  GABUNG PROGRAM REGULER
+                </span> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="switchable space--sm">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <h2 class="text-center">Pertanyaan Umum</h2>
+            <p class="lead mb-5 text-center">Berikut ini pertanyaan umum yang sering ditanyakan kepada kami, mungkin
+              salah satunya adalah pertanyaan yang ingin kamu tanyakan.</p>
+            <ul class="accordion accordion-2 accordion--oneopen">
+              <li>
+                <div class="accordion__title"> <span class="h5">Apa itu Kampus Coding?</span> </div>
+                <div class="accordion__content">
+                  <p class="lead"> Kampus Coding merupakan program belajar coding online yang diselenggarakan oleh
+                    CODEPOLITAN untuk membantu perguruan tinggi dalam mempersiapkan lulusannya khususnya dalam jurusan
+                    IT agar siap terjun dan bersaing di dunia kerja dalam industri 4.0. </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion__title"> <span class="h5">Untuk siapa program Kampus Coding?</span> </div>
+                <div class="accordion__content">
+                  <p class="lead"> Pelajar dan Mahasiswa yang ingin membangun keahlian dalam bidang web programming
+                    untuk mempersiapkan diri menghadapi dunia kerja di industri 4.0</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion__title"> <span class="h5">Bagaimana metode belajar di Kampus Coding?</span> </div>
+                <div class="accordion__content">
+                  <p class="lead"> Siswa Kampus Coding akan belajar secara online berdasarkan alur belajar yang telah
+                    disediakan. Materi belajar berbentuk video tutorial yang dikemas langkah demi langkah agar mudah
+                    dipelajari. Siswa bisa belajar secara fleksibel kapan saja dan di mana saja sesuai. Siswa bisa
+                    bertanya melalui forum yang telah disediakan jika mengalami kesulitan selama belajar.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion__title"> <span class="h5">Apakah siswa akan mendapatkan sertifikat setelah
+                    menyelesaikan materi belajar?</span> </div>
+                <div class="accordion__content">
+                  <p class="lead"> Ya, sertifikat digital.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion__title"> <span class="h5">Bagaimana jika saya mengalami kesulitan selama
+                    belajar?</span> </div>
+                <div class="accordion__content">
+                  <p class="lead"> Siswa bisa mengulang materi untuk memperdalam pemahaman. Jika masih mengalami
+                    kesulitan, siswa bisa bertanya di forum yang telah disediakan</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion__title"> <span class="h5">Berapa lama waktu yang diperlukan untuk menyelesaikan
+                    semua materi dalam program Kampus Coding?</span> </div>
+                <div class="accordion__content">
+                  <p class="lead"> Idealnya 1 tahun waktu yang cukup untuk menguasai semua materi belajar dengan baik.
+                    Namun jika kamu memiliki fokus yang tinggi dan terbiasa belajar cepat, kamu bisa menyelesaikan semua
+                    materi dan meguasainya dalam waktu 6 bulan (1 semester).</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion__title"> <span class="h5">Apakah program ini gratis?</span> </div>
+                <div class="accordion__content">
+                  <p class="lead"> Tidak, program ini berbayar.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion__title"> <span class="h5">Apakah program ini terbuka untuk umum?</span> </div>
+                <div class="accordion__content">
+                  <p class="lead"> Ya, namun dikhususkan untuk pelajar dan mahasiswa.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion__title"> <span class="h5">Apakah siswa bisa mendaftar secara mandiri atau melalui
+                    kampus?</span> </div>
+                <div class="accordion__content">
+                  <p class="lead"> Siswa bisa belajar mandiri.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion__title"> <span class="h5">Apakah Kampus Coding bisa bermitra dengan kampus dalam
+                    penyelenggaraan materi belajar?</span> </div>
+                <div class="accordion__content">
+                  <p class="lead"> Bisa, kami sudah memiliki beberapa partner terkait hal tersebut.</p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="text-center space--sm">
+      <div class="container">
+        <h3>Apakah kamu masih punya pertanyaan lain?</h3>
+        <a href="https://api.whatsapp.com/send?phone=6281223459994&text=Hallo%20CODEPOLITAN%2C%20saya%20ingin%20bertanya%20seputar%20program%20Kampus%20Coding"
+          target="_blank"><img alt="Tombol WhatsApp" src="assets/img/button-wa.png"></a>
+        <div class="mt-2">Bisa dihubungi pada jam kerja</div>
+      </div>
+    </section>
+
+  </div>
+  <script src="assets/js/jquery-3.1.1.min.js"></script>
+  <script src="assets/js/parallax.js"></script>
+  <script src="assets/js/smooth-scroll.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+
+  <script>
+    $(".btn-scroll-to").click(function () {
+      var target = $(this).attr("href");
+
+      $('html, body').animate({
+        scrollTop: ($(target).first().offset().top)
+      }, 500);
+    });
+  </script>
+
+</body>
 
 </html>
